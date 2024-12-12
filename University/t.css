@@ -1,0 +1,80 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    color: #999;
+    background-color: #ececec;
+    
+}
+
+.team-area{
+    text-align: center;
+    display: grid;
+    padding-left: 35px;
+}
+
+.section-title{
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.team-box{
+    display: inline-flex;
+    Flex-wrap: wrap; 
+}
+
+.box{
+    width: 230px;
+    margin: 20px;
+    padding: 30px 10px;
+    background: #ececec;
+    text-align: center;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 10px 10px 15px #c7c4c4, -10px -10px 15px #fff;
+}
+.box img{
+    width: 80px;
+    border-radius: 100%;
+    padding: 5px;
+    margin-bottom: -10px;
+    border: 2px solid #dee2e6;
+    backface-visibility: hidden;
+    transition: all .5s ease-in-out;
+}
+
+.box:hover img{
+    transform: scale(1.2);
+}
+
+.box h2{
+    font-size: 20px;
+    line-height: 1.6;
+    margin-bottom: 0;
+}
+
+.box ul{
+    padding: 0;
+}
+
+.box ul li{
+    display: inline-block;
+    list-style: none;
+}
+
+.box ul li a .fa{
+    color: #999;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid #999;
+    border-radius: 50%;
+    margin: 5px;
+    transition: .3s;
+}
+
+.box ul li a .fa-facebook:hover{
+    color: #3b5999;
+}
+
